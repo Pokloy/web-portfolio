@@ -25,9 +25,6 @@
 	 min-height: 40vh;
 }
 
-.c-navbar-color{
-	background-color: rgba(32, 30, 80);
-}
 
 .c-landing-btn { 
     cursor: pointer; 
@@ -88,6 +85,26 @@
 	font-size: 3rem;
 }
 
+.c-navbar-color-footer {
+    background-color: rgba(32, 30, 80); 
+ 
+}
+
+/*Navbar color and animation start*/
+
+.c-navbar-color-default{
+	background-color: rgba(32, 30, 80);
+}
+
+.c-navbar-color {
+    background-color: rgba(32, 30, 80); /* Define the background color you want here */
+    transition: background-color 0.3s; /* Add a transition for smooth color changes */
+}
+
+.c-shadow-lg {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Add a shadow effect, you can adjust this as needed */
+}
+/*Navbar color and animation end*/
 
 
 /*OVERRIDE BOOTSTRAPS*/
