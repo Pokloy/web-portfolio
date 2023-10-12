@@ -1,0 +1,53 @@
+/*CSS Reset*/
+*{
+	padding:0;
+	margin:0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+#landing {
+	min-height: 80vh;
+}
+#projects {
+    min-height: 90vh;
+}
+#tools, #contact{
+	 min-height: 40vh;
+}
+
+
+
+
+.c-navbar-color{
+	background-color: rgba(32, 30, 80);
+}
+
+.c-landing-btn { 
+    cursor: pointer; 
+    border: 5px solid #201E50; 
+    background-color: transparent; 
+    height: 50px; 
+    width: 200px; 
+    color: whitesmoke; 
+    font-size: 1.5em; 
+    box-shadow: 0 6px 6px #0F52BA; 
+} 
+.c-color-text{
+	color: #0F52BA;
+}
+.c-secondbackground{
+	background-color: #100C08;
+}
+
+.c-align-justice{
+	text-align: justify;
+}
+.c-fa-size
+{
+	font-size: 3rem;
+}
+
+.navbar-light .navbar-toggler-icon {
+    color: #ffffff; /* Change to your desired color */
+}
