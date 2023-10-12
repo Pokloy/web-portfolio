@@ -9,6 +9,14 @@
 #landing {
 	min-height: 80vh;
 }
+@media (max-width: 976px) {
+    #landing {
+        min-height: 50vh;
+        display: flex;
+        align-items: center;
+        padding-left: 5rem;
+    }
+}
 #projects {
     min-height: 90vh;
 }
@@ -36,6 +44,10 @@
 .c-color-text{
 	color: #0F52BA;
 }
+.c-landing-bg{
+	background-image: url("./images/Landingbg.png");
+}
+
 .c-secondbackground{
 	background-color: #100C08;
 }
