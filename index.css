@@ -121,4 +121,10 @@
 	 transform: scale(2.05);
 }
 
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+
 
