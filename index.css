@@ -4,6 +4,7 @@
 	margin:0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth
 }
 
 #landing {
@@ -24,9 +25,6 @@
 	 min-height: 40vh;
 }
 
-
-
-
 .c-navbar-color{
 	background-color: rgba(32, 30, 80);
 }
@@ -41,11 +39,41 @@
     font-size: 1.5em; 
     box-shadow: 0 6px 6px #0F52BA; 
 } 
+.c-landing-btn:hover {
+  box-shadow: 5px 5px 10px rgba(15, 82, 186, 0.2);
+}
+
+
 .c-color-text{
 	color: #0F52BA;
 }
+
 .c-landing-bg{
 	background-image: url("./images/Landingbg.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-tool-bg{
+	background-image: url("./images/toolbg.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-contact-bg{
+	background-image: url("./images/contactbg.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.c-projects-bg{
+	background-image: url("./images/projectsbg.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .c-secondbackground{
@@ -60,6 +88,37 @@
 	font-size: 3rem;
 }
 
+
+
+/*OVERRIDE BOOTSTRAPS*/
 .navbar-light .navbar-toggler-icon {
-    color: #ffffff; /* Change to your desired color */
+    color: #ffffff; 
 }
+
+.card {
+ 
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.carousel-indicators li {
+    background-color: #000;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+}
+
+.nav-item:hover{
+	 transform: scale(1.05);
+	 border: solid whitesmoke;
+}
+.fa:hover{
+	 transform: scale(2.05);
+}
+
+
