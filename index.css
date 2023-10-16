@@ -18,6 +18,7 @@
         padding-left: 5rem;
     }
 }
+
 #projects {
     min-height: 90vh;
 }
@@ -97,14 +98,14 @@
 }
 
 .c-navbar-color {
-    background-color: rgba(32, 30, 80); /* Define the background color you want here */
-    transition: background-color 0.3s; /* Add a transition for smooth color changes */
+    background-color: rgba(32, 30, 80); 
+    transition: background-color 0.3s; 
 }
 
 .c-shadow-lg {
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); /* Add a shadow effect, you can adjust this as needed */
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); 
 }
-/*Navbar color and animation end*/
+
 
 
 /*OVERRIDE BOOTSTRAPS*/
