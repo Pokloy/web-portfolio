@@ -144,5 +144,7 @@ a{
 	color: inherit;
 }
 
-
+.customImgSize{
+    width: 640px !important; 
+}
 
